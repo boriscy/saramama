@@ -21,6 +21,7 @@
     "react-dom": "^16.5.1",
     "react-typography": "^0.16.18",
     "tachyons-sass": "^4.9.5",
+    "typescript": "^3.2.2",
     "typography": "^0.16.18"
   },
   "repository": {
