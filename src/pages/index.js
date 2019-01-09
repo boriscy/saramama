@@ -1,10 +1,12 @@
 import React from "react"
+
+import Layout from "../layouts/index"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import { Link } from "gatsby"
 
 export default () => (
-  <div>
+  <Layout>
     <Header headerText="Inicio" />
     <h1 style={{ color: 'teal' }}>Saramama</h1>
     <p>
@@ -12,5 +14,5 @@ export default () => (
     </p>
     <Link to="/contact">Contacto</Link>
     <Footer />
-  </div>
+  </Layout>
 )
