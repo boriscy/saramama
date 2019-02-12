@@ -1,0 +1,107 @@
+.page-home {
+  position: relative;
+
+  .page {
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .parallax.sun {
+    background-image: url(../../static/sun.jpg);
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .page-title {
+    width: 100%;
+    top: 10%;
+    text-align: center;
+    font-weight: normal;
+    color: white;
+    position: absolute;
+    font-family: 'Josefin Sans', sans-serif;
+
+    h1.title {
+      font-size: 5.5rem;
+      font-weight: lighter;
+      display: inline-block;
+      background: rgba(0,0,0,0.15);
+      text-shadow: 1px 1px 2px #999999;
+      padding: 10px 10px 0px;
+      margin: 0px;
+      vertical-align: middle;
+      color: #ff9800;
+      border-radius: 5px;
+      .bold {
+        color: white;
+      }
+    }
+    h2.title {
+      font-size: 3rem;
+      font-weight: lighter;
+      text-shadow:  1px 1px 2px #4b4b4b;
+    }
+  }
+
+  .second-page {
+    .page-title {
+      top: 5%;
+      h2, h3 {
+        margin: 0px;
+      }
+    }
+    .panel {
+      top: 20%;
+      right: 5%;
+    }
+  }
+
+  .third-page {
+    background: #4b4b4b;
+    position: relative;
+    margin: 0px;
+    color: white;
+    height: 200vh;
+    overflow: hidden;
+    .page-cont  {
+      position: relative;
+      width: 600px;
+      background: rgba(0,0,0,0.7);
+      padding: 20px;
+      margin: 0px auto;
+      top: 30px;
+      border-radius: 10px;
+      z-index: 10;
+    }
+    .img-cover {
+      position: absolute;
+      top: -60px;
+      left: -40px;
+      opacity: 0.5;
+      filter: blur(40px);
+      width: 120%;
+      height: 200vh;
+    }
+  }
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  //and (-webkit-min-device-pixel-ratio: 2)
+  {
+  .page-home .first-page {
+    .img-cover {
+      object-position: top left;
+    }
+    .page-title {
+      h1.title {
+        font-size: 3.5rem;
+      }
+      h2.title {
+        font-size: 2.2rem;
+      }
+    }
+  }
+}

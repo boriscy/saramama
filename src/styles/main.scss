@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400");
+@import "home.scss";
+
+
 body {
   color: #333333;
+  background: #efefef;
+  .container {
+    font-size: 1.2em;
+  }
 }
