@@ -3,5 +3,6 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-typography`,
     `gatsby-plugin-typescript`,
-  ]
+  ],
+  pathPrefix: "saramama"
 }
