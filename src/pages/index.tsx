@@ -1,7 +1,5 @@
 import * as React from "react"
-import sun from "../../static/sun.jpg"
 import Layout from "../layouts/index"
-import Header from "../components/header"
 import Footer from "../components/footer"
 // import { Link } from "gatsby"
 
@@ -19,9 +17,10 @@ export default class IndexPage extends React.Component<IndexPageProps, {}> {
               Sara<span className="bold">Mama</span>
             </h1>
 
-            <h2 className="title">Creando un ritual autentico</h2>
+            <h2 className="title">Potencia tu sanador interior</h2>
           </div>
           <div className="container">
+            {/*
             <ul>
               <li>Conciente de nuestro origen divino, honro la Vida en la Tierra y bendigo la naturaleza divina de todos los seres.</li>
 
@@ -37,6 +36,7 @@ export default class IndexPage extends React.Component<IndexPageProps, {}> {
 
               <li>Pongo al servicio mis acciones cotidianas en pós del bien común, del Nosotros.</li>
             </ul>
+            */}
           </div>
         </div>
 

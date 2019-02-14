@@ -4,5 +4,4 @@ module.exports = {
     `gatsby-plugin-typography`,
     `gatsby-plugin-typescript`,
   ]
-  // pathPrefix: "saramama"
 }

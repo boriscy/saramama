@@ -2,6 +2,6 @@ import * as React from "react"
 
 export default () => (
   <footer>
-    Saramama 2019
+    SaraMama 2019
   </footer>
 )
